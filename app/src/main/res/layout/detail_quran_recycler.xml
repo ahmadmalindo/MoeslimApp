@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="105dp"
+    tools:context=".Detail_Ayyah_Quran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="105dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/icon_ayah_surrah"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_stariconmaincolor"
+                tools:ignore="MissingConstraints"
+                android:gravity="center|center_vertical"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/text_numArabic_surrah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:text="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/main_color"
+                    android:textSize="7dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_ayah_surrah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِلْمُتَّقِينَ"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/main_color"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="clip_vertical"
+            android:layout_marginBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_save"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/text_num_surrah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/second_color"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/second_color"
+                android:textSize="10dp"
+                android:layout_marginRight="3dp"/>
+
+            <TextView
+                android:id="@+id/text_translate_ayyah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitab (Al Quraan) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertaqwa,"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/second_color"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fout_color"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/card_bg_started.xml" value="0.11200000000000002" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/card_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/card_white.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/dzikir_selector.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/ic_backicon.xml" value="0.106" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/icon_quran_selector.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/icon_sholat_selector.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/input_shape.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/rounded_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/drawable/rounded_show_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_auth_login.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_auth_register.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_dashboard_quran.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_detail_ayyah_quran.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_detail_surrat_quran.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_indicator.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_main.xml" value="0.45893719806763283" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/activity_show_dialog.xml" value="0.2845227062094532" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/auth_login.xml" value="0.22445489525438223" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/detail_quran_recycler.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard__dzikir.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard__dzikir2.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard__qura.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard__quran.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/fragment_dashboard__sholat.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/layout/quran_recycler.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Moeslim/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

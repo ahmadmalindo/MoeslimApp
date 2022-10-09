@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Moeslim</string>
+    <string name="title_activity_dashboard_quran">Dashboard_Quran</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: open and close button navigation drawer   -->
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+</resources>

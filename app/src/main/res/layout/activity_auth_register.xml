@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth_Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/btn_back_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_backicon"
+                tools:ignore="MissingConstraints,Orientation"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="22sp"
+                android:textColor="@color/main_color"
+                android:layout_marginTop="70dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tak kenal maka tak sayang yuk"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/second_color"
+                android:textSize="13sp"
+                android:layout_marginBottom="-5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lengkapi data dirimu dulu"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/second_color"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="30dp"/>
+
+            // input_username
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <EditText
+                    android:id="@+id/input_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Username"
+                    android:inputType="textEmailAddress"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/second_color"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/show_hide_input_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:paddingHorizontal="5dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Username"
+                        android:textColor="@color/main_color" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            // input_email
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <EditText
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/second_color"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/show_hide_input_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:paddingHorizontal="5dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:textColor="@color/main_color" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            // input_password
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <EditText
+                    android:id="@+id/input_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_eyeclosedicon"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/second_color"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/show_hide_input_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:paddingHorizontal="5dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Password"
+                        android:textColor="@color/main_color" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            //input_Confrimpwd
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:clickable="true">
+
+                <EditText
+                    android:id="@+id/input_pwd_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_eyeclosedicon"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/second_color"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/show_hide_input_pwd_confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:paddingHorizontal="5dp"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Confirm Password"
+                        android:textColor="@color/main_color" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_confrim_register"
+                android:layout_width="fill_parent"
+                android:layout_height="74dp"
+                android:backgroundTint="@color/main_color"
+                android:text="Daftar"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:gravity="center_horizontal|center"
+                android:fontFamily="@font/poppins_semibold"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

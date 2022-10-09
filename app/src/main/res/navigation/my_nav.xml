@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/dashboard_Quran">
+
+    <fragment
+        android:id="@+id/dashboard_Sholat"
+        android:name="com.moeslim.Dashboard_Sholat"
+        android:label="fragment_dashboard__sholat"
+        tools:layout="@layout/fragment_dashboard__sholat" />
+    <fragment
+        android:id="@+id/dashboard_Quran"
+        android:name="com.moeslim.Dashboard_Quran"
+        android:label="fragment_dashboard__quran"
+        tools:layout="@layout/fragment_dashboard__quran" />
+    <fragment
+        android:id="@+id/dashboard_Dzikir"
+        android:name="com.moeslim.Dashboard_Dzikir"
+        android:label="fragment_dashboard__dzikir"
+        tools:layout="@layout/fragment_dashboard__dzikir" />
+</navigation>
